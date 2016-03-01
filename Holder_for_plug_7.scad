@@ -62,9 +62,9 @@ translate([0,Spacing_for_posts,0])
 cylinder(d = Post_D,h = 50);
 translate([0,-Brass_tube_ID/2+Locating_cut_W/2+(2.5/Locating_cut_W),Base_height+(Plug_height/2)])
 cube([Locating_cut_W,Locating_cut_W,Plug_height],true);
-translate([0,-Brass_tube_ID/2+Plug_OD,7])
-linear_extrude(height = Plug_height, scale = 5)
-square([Locating_cut_W,Locating_cut_W],true); 
+translate([0,-Brass_tube_ID/2+Plug_OD,8])
+linear_extrude(height = Plug_height, scale = 3)
+square([2,2],true); 
 
 }
 }
